@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <data noupdate="1">
     <record id="AC" model="hr.salary.rule">
         <field name="amount_select">fix</field>
         <field name="appears_on_payslip">False</field>
@@ -470,5 +469,4 @@ else:
         <field name="sequence">195</field>
         <field name="category_id" ref="hr_payroll_INFO"/>
     </record>
-    </data>
 </odoo>
